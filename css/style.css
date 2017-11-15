@@ -6204,7 +6204,7 @@ a:hover {
 }
 
 .navbar {
-  background: #fff !important;
+  background: none !important;
 }
 
 .navbar-brand {
@@ -6212,7 +6212,7 @@ a:hover {
 }
 
 .navbar-light .navbar-brand,
-.navbar-light .navbar-bran:hover {
+.navbar-light .navbar-brand:hover {
   color: #115d84;
 }
 

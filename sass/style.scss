@@ -53,13 +53,13 @@ a:hover {
   color: $gray-900;
 }
 .navbar {
-  background: #fff !important;
+  background: none !important;
 }
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
 }
 .navbar-light .navbar-brand,
-.navbar-light .navbar-bran:hover {
+.navbar-light .navbar-brand:hover {
   color: #115d84;
 }
 .lead,
