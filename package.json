@@ -1,0 +1,28 @@
+{
+  "name": "tweet-pad",
+  "version": "1.0.0",
+  "description": "Dashboard for writing draft tweets.",
+  "author": "Yusuke Takahashi <youthkee@gmail.com>",
+  "homepage": "https://littlebirdjp.github.io/tweet-pad/",
+  "license": "MIT",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebirdjp/tweet-pad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/littlebirdjp/tweet-pad/issues"
+  },
+  "scripts": {
+    "postinstall": "bash bin/build.sh",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 sass/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
+    "feathericon": "^0.9.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

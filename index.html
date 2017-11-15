@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tweet Pad</title>
+  <meta name="description" content="Dashboard for writing draft tweets.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:300|Montserrat">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-light bg-light flex-column">
+    <h1 class="navbar-brand mb-0 h6"><i class="fe fe-feather"></i> Tweet Pad</h1>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="offset-md-3 col-md-6">
+
+      <p class="lead mt-2 mb-2">
+        <span id="result">140</span>
+      </p>
+
+      <div class="form-group">
+        <textarea rows="10" id="textarea" class="form-control"></textarea>
+      </div>
+
+      <p class="text-center mt-2">
+        <span id="tweet"><a href="https://twitter.com/intent/tweet?text=" target="_blank" class="btn btn-primary"><i class="fe fe-twitter"></i> Tweet</a></span>
+        <button id="copy" class="btn btn-primary"><i class="fe fe-union"></i> Copy</button>
+        <button id="clear" class="btn btn-primary"><i class="fe fe-trash"></i> Clear</button>
+      </p>
+
+      <hr>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer class="text-center">
+  <p><i class="fe fe-github"></i> <a href="https://github.com/littlebirdjp/tweet-pad">littlebird</a></p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
