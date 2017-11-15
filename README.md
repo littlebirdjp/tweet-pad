@@ -1,6 +1,6 @@
 # Tweet Pad
 
-Dashboard for writing draft tweets.
+![](screenshot.png?raw=true)
 
 Tweet Padは、Twitterに投稿する前にサッと下書きするためのWebアプリです。  
 全角＝1文字、半角＝0.5文字換算で、入力しながら残り文字数を計算できます。  
