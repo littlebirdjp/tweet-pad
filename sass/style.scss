@@ -46,10 +46,26 @@ $blue: #1b97d7;
 @import "node_modules/feathericon/build/scss/feathericon";
 
 body {
-  font-family: 'Assistant', sans-serif;
+  background: #e6ecf0;
+}
+a,
+a:hover {
+  color: $gray-900;
+}
+.navbar {
+  background: #fff !important;
 }
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-bran:hover {
+  color: #09425f;
+}
+.lead,
+.btn,
+footer {
+  font-family: 'Assistant', sans-serif;
 }
 #textarea {
   width: 100%;
@@ -57,4 +73,7 @@ body {
 .btn {
   margin-left: .25rem;
   margin-right: .25rem;
+}
+.btn:hover {
+  cursor: pointer;
 }

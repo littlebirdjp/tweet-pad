@@ -6195,11 +6195,31 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 body {
-  font-family: 'Assistant', sans-serif;
+  background: #e6ecf0;
+}
+
+a,
+a:hover {
+  color: #212529;
+}
+
+.navbar {
+  background: #fff !important;
 }
 
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-bran:hover {
+  color: #09425f;
+}
+
+.lead,
+.btn,
+footer {
+  font-family: 'Assistant', sans-serif;
 }
 
 #textarea {
@@ -6209,6 +6229,10 @@ body {
 .btn {
   margin-left: .25rem;
   margin-right: .25rem;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
