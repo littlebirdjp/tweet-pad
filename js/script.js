@@ -6,7 +6,7 @@ $('#textarea').on('input', function () {
   //Twitterに投稿できる最大文字数
   var max_count = 140;
   //1URL毎に短縮される文字数
-  var url_count = 23;
+  var url_count = 11.5;
   //テキストエリアに入力された文字列を取得
   var text_plane = $('#textarea').val();
   //URLを識別するための文字パターンを定義
