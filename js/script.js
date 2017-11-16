@@ -27,6 +27,7 @@ $('#textarea').on('input', function () {
   //残った文字列から半角英数字以外（全角文字）を取得し、1文字ずつ配列に代入
   var full = text_plane.match(/[^a-zA-z0-9!"#$%&'()\*\+\-\.,\/:;<=>?@\[\\\]^_`{|}~\s]/g) !== null ? text_plane.match(/[^a-zA-z0-9!"#$%&'()\*\+\-\.,\/:;<=>?@\[\\\]^_`{|}~\s]/g) : '';
   //半角0.5文字、全角1文字換算として合計文字数を計算
+  //サロゲートペアの数を数えて全体の文字数から引く
   var word_count = (half.length / 2) + full.length - (text_plane.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g)||[]).length;
   //最大文字数から入力文字数を引いて、残り文字数を計算
   var rest_count = max_count - word_count;
