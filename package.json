@@ -1,7 +1,7 @@
 {
   "name": "tweet-pad",
   "version": "1.0.0",
-  "description": "Dashboard for writing draft tweets.",
+  "description": "A web app for writing draft tweets.",
   "author": "Yusuke Takahashi <youthkee@gmail.com>",
   "homepage": "https://littlebirdjp.github.io/tweet-pad/",
   "license": "MIT",
