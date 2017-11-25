@@ -1,6 +1,6 @@
 # Tweet Pad
 
-![](screenshot.png?raw=true)
+![](screenshot_ja.png)
 
 Tweet Padは、Twitterに投稿する前にツイートを下書きするためのWebアプリです。  
 

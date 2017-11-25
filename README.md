@@ -1,6 +1,6 @@
 # Tweet Pad
 
-![](screenshot.png?raw=true)
+![](screenshot.png)
 
 "Tweet Pad" is a web app for writing draft tweets.
 
