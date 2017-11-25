@@ -22,7 +22,7 @@ $blue: #1b97d7;
 @import "node_modules/bootstrap/scss/buttons";
 // @import "node_modules/bootstrap/scss/transitions";
 // @import "node_modules/bootstrap/scss/dropdown";
-// @import "node_modules/bootstrap/scss/button-group";
+@import "node_modules/bootstrap/scss/button-group";
 // @import "node_modules/bootstrap/scss/input-group";
 // @import "node_modules/bootstrap/scss/custom-forms";
 // @import "node_modules/bootstrap/scss/nav";
@@ -61,6 +61,10 @@ a:hover {
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover {
   color: #115d84;
+}
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .lead,
 .btn,

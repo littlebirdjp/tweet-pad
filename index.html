@@ -20,13 +20,13 @@
   <meta name="twitter:description" content="Dashboard for writing draft tweets.">
   <meta name="twitter:image" content="https://littlebirdjp.github.io/tweet-pad/ogimage.png">
   <meta name="twitter:domain" content="littlebirdjp.github.io">
-  <link rel="shortcut icon" href="favicon.ico?v=3">
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="manifest" href="manifest.json">
   <link rel="mask-icon" href="safari-pinned-tab.svg" color="#115d84">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#e6f1f9">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:300|Montserrat">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,23 +41,58 @@
 </head>
 <body>
 
-<header>
-  <nav class="navbar navbar-light bg-light flex-column">
-    <h1 class="navbar-brand mb-0 h6"><i class="fe fe-feather"></i> Tweet Pad</h1>
-  </nav>
-</header>
-
 <div class="container">
 
   <div class="row">
 
     <div class="offset-md-3 col-md-6">
 
-      <hr class="lead mt-0 mb-0">
+      <div class="row">
 
-      <p class="lead mt-2 mb-2">
-        <span id="result">140</span>
-      </p>
+        <div class="offset-2 col-8">
+
+          <header>
+            <nav class="navbar navbar-light bg-light flex-column">
+              <h1 class="navbar-brand mb-0 h6"><i class="fe fe-feather"></i> Tweet Pad</h1>
+            </nav>
+          </header>
+
+        </div>
+
+        <div class="col-2  text-right">
+
+            <p class="mt-3 mr-2"><a href="https://github.com/littlebirdjp/tweet-pad" target="_blank" id="help_link"><i class="fe fe-question"></i></a></p>
+
+        </div>
+
+      </div>
+
+      <hr class="lead mt-0 mb-2">
+
+      <div class="row">
+
+        <div class="col-6">
+
+          <p class="lead">
+            <span id="result">140</span>
+          </p>
+
+        </div>
+
+        <div class="col-6 text-right">
+
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-secondary active" id="btn_ja">
+              <input type="radio" name="language" id="radio_ja" autocomplete="off" checked> Ja
+            </label>
+            <label class="btn btn-secondary" id="btn_en">
+              <input type="radio" name="language" id="radio_en" autocomplete="off"> En
+            </label>
+          </div>
+
+        </div>
+
+      </div>
 
       <div class="form-group">
         <textarea rows="10" id="textarea" class="form-control"></textarea>
@@ -74,15 +109,15 @@
 
       <hr>
 
+      <footer class="text-center">
+        <p><i class="fe fe-github"></i> <a href="http://littlebird.mobi/">littlebird</a></p>
+      </footer>
+
     </div>
 
   </div>
 
 </div>
-
-<footer class="text-center">
-  <p><i class="fe fe-github"></i> <a href="https://github.com/littlebirdjp/tweet-pad">littlebird</a></p>
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/script.js"></script>
